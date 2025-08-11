@@ -8,7 +8,7 @@
     },
     "dependencies": {
         "@filego/node": "workspace:^",
-        "@hono/node-server": "^1.14.3",
+        "@hono/node-server": "^1.15.0",
         "hono": "^4.7.10"
     },
     "devDependencies": {
