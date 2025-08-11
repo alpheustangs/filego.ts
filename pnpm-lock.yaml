@@ -68,8 +68,8 @@ importers:
         specifier: ^1.6.2
         version: 1.6.2(hono@4.7.11)
       '@hono/vite-dev-server':
-        specifier: ~0.19.1
-        version: 0.19.1(hono@4.7.11)
+        specifier: ~0.20.0
+        version: 0.20.0(hono@4.7.11)
       vite:
         specifier: ^6.3.5
         version: 6.3.5(@types/node@18.19.111)(yaml@2.8.0)
@@ -393,8 +393,8 @@ packages:
     peerDependencies:
       hono: '*'
 
-  '@hono/vite-dev-server@0.19.1':
-    resolution: {integrity: sha512-hh+0u3IxHErEyj4YwHk/U+2f+qAHEQZ9EIQtadG9jeHfxEXH6r/ZecjnpyEkQbDK7JtgEEoVAq/JGOkd3Dvqww==}
+  '@hono/vite-dev-server@0.20.0':
+    resolution: {integrity: sha512-Qkp9jh4R0q5VnUTBIoaeyh0M6nZWMWPaj5sHa0JJIS3Wu0UPi+Trc5JQTv0tKfYkrnAwOSQXW17pI1815o/5lQ==}
     engines: {node: '>=18.14.1'}
     peerDependencies:
       hono: '*'
@@ -722,8 +722,8 @@ packages:
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
-  brace-expansion@2.0.1:
-    resolution: {integrity: sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==}
+  brace-expansion@2.0.2:
+    resolution: {integrity: sha512-Jt0vHyM+jmUBqojB7E1NIYadt0vI0Qxjxd2TErW94wDz+E2LAm5vKMXXwg6ZZBTHPuUlDgQHKXvjGBdfcF1ZDQ==}
 
   bundle-require@5.1.0:
     resolution: {integrity: sha512-3WrrOuZiyaaZPWiEt4G3+IffISVC9HYlWueJEBWED4ZH4aIAC2PnkdnuRrR94M+w6yGWn4AglWtJtBI8YqvgoA==}
@@ -1425,7 +1425,7 @@ snapshots:
     dependencies:
       hono: 4.7.11
 
-  '@hono/vite-dev-server@0.19.1(hono@4.7.11)':
+  '@hono/vite-dev-server@0.20.0(hono@4.7.11)':
     dependencies:
       '@hono/node-server': 1.14.3(hono@4.7.11)
       hono: 4.7.11
@@ -1691,7 +1691,7 @@ snapshots:
 
   balanced-match@1.0.2: {}
 
-  brace-expansion@2.0.1:
+  brace-expansion@2.0.2:
     dependencies:
       balanced-match: 1.0.2
 
@@ -1873,7 +1873,7 @@ snapshots:
 
   minimatch@9.0.5:
     dependencies:
-      brace-expansion: 2.0.1
+      brace-expansion: 2.0.2
 
   minipass@7.1.2: {}
 

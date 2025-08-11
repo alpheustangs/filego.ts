@@ -13,7 +13,7 @@
     },
     "devDependencies": {
         "@hono/vite-build": "^1.6.2",
-        "@hono/vite-dev-server": "~0.19.1",
+        "@hono/vite-dev-server": "~0.20.0",
         "vite": "^6.3.5",
         "vite-tsconfig-paths": "^5.1.4"
     }
